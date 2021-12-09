@@ -1,0 +1,39 @@
+.inputarea{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.inputarea input{
+    width:250px;
+    height:37px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    padding-left:10px;
+    background-color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+}
+.inputarea label{
+    font-size:22px;
+    margin:10px;
+}
+.inputarea button{
+    background-color:#105652;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    color:#FFFFFF;
+    width:100px;
+    height:37px;
+    font-size:18px;
+    margin-top:20px;
+    cursor: pointer;
+}
+.result{
+    text-align:center;
+}
+.result h3{
+  font-size:23px;
+}

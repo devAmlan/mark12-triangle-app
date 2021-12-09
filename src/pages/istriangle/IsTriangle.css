@@ -1,0 +1,39 @@
+.angleinput{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;  
+}
+.angleinput label{
+    font-size:25px;
+    color:#105652;
+}
+.angleinput input{
+    width:250px;
+    height:35px;
+    margin:10px;
+    border:2px solid #105652;
+    outline:none;
+    padding-left:8px;
+    font-size:17px;
+    border-radius:9px;
+}
+.angleinput button{
+   width:110px;
+   height:40px;
+   background-color:#105652; 
+   border:none;
+   color:#F6F6F6;
+   border-radius:6px;
+   font-size:18px;
+   margin-top:15px;
+   cursor: pointer;
+   font-family: 'Poppins', sans-serif;
+}
+.msgarea{
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+}
+.msgarea h3{
+  font-size:25px;
+}

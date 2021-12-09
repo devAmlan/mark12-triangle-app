@@ -1,0 +1,19 @@
+.navbar{
+    height:70px;
+    width:100%;
+    background-color:#105652;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+.navbar ul{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.navbar ul li{
+    list-style:none;
+    margin-right:20px;
+}

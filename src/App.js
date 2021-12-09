@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './component/navbar/Navbar';
+import IsTriangle from './pages/istriangle/IsTriangle';
+import Quiz from './pages/quiz/Quiz';
+import Hypotenuse from './pages/hypotenuse/Hypotenuse';
+import Area from './pages/area/Area';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      <Router>
+      <Navbar/>
+        <Routes>
+        <Route element={<IsTriangle/>} path="/"/>
+        <Route element={<Quiz/>} path="/quiz"/>
+        <Route element={<Hypotenuse/>} path="/hypotenuse"/>
+        <Route element={<Area/>} path="/area"/>
+        </Routes>
+      </Router>
+   
     </div>
   );
 }

@@ -1,0 +1,32 @@
+.sideinput{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.sideinput input{
+    width:250px;
+    height:36px;
+    background-color:#F6F6F6;
+    border:1.4px solid #105652;
+    border-radius:7px;
+    outline:none;
+    padding-left:10px;
+    font-size:17px;
+}
+.sideinput label{
+    font-size:18px;
+    margin:10px;
+}
+.sideinput button{
+    width:110px;
+    height:37px;
+    border:none;
+    border-radius:7px;
+    background-color:#105652;
+    margin-top:20px;
+    color:#F6F6F6;
+    font-size:17px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
